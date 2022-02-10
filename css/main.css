@@ -2148,42 +2148,6 @@ header .logo {
     transform: translateY(-100%)
 }
 
-.section-ads h2 {
-    position: relative;
-    padding-bottom: 2.1rem
-}
-
-.section-ads h2::after {
-    content: "";
-    display: block;
-    height: 3px;
-    width: 80px;
-    background: rgba(0, 0, 0, .2);
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    margin-left: -40px
-}
-
-.section-ads h2 a,
-.section-ads h2 a:visited {
-    color: #313131
-}
-
-.section-ads span {
-    color: #3f0d39
-}
-
-@media only screen and (max-width:650px) {
-    .cta-content {
-        max-width: 650px
-    }
-
-    .cta-content h2 {
-        font-size: 2.4rem
-    }
-}
-
 #services {
     background: #313131 url(../images/bg.jpg) no-repeat center;
     -webkit-background-size: cover;
@@ -2299,7 +2263,7 @@ header .logo {
 
 #stats .icon-part i {
     font-size: 4.8rem;
-    color: #ef0
+    color: #f8c600
 }
 
 #stats .stat-count,
@@ -2704,7 +2668,8 @@ footer .copyright span:last-child::after {
     bottom: 0;
     right: 0;
     z-index: 600;
-    display: none
+    display: none;
+    margin: 10px;
 }
 
 #go-top a {
@@ -2738,7 +2703,8 @@ footer .copyright span:last-child::after {
 
 #go-top a:hover {
     background: rgba(248, 198, 0, .81);
-    border-radius: 5px;
+    border-radius: 50%;
+    width: 6.6rem;
     box-shadow: 0 4px 30px rgba(0, 0, 0, .1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
@@ -2781,4 +2747,11 @@ footer .copyright span:last-child::after {
 .btn_sample:hover {
     background-color: #4d2db8;
     color: #fff
+}
+.intro-social .fa-brands{
+    font-size: 25px;
+}
+.icon .fa-whatsapp:hover, .icon .fa-envelope:hover{
+    color: #4BC959;
+    transition: all 0.5 ease-in;
 }
