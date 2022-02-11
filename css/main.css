@@ -1816,9 +1816,15 @@ header .logo {
     #resume .timeline-content {
         padding-left: 50px
     }
+    #resume{
+        margin: 2px;
+    }
 }
 
 @media only screen and (max-width:768px) {
+    #resume{
+        margin: 2px;
+    }
     #resume .timeline-wrap::before {
         left: 2.4rem
     }
@@ -1866,6 +1872,9 @@ header .logo {
 }
 
 @media only screen and (max-width:480px) {
+    #resume{
+        margin: 2px;
+    }
     #resume .resume-header h2 {
         font-size: 2.2rem
     }
